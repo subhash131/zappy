@@ -25,3 +25,10 @@ body {
     text-wrap: balance;
   }
 }
+
+.text-gradient {
+  background: -webkit-linear-gradient(#eee, #333);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
